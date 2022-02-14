@@ -1,6 +1,6 @@
 const dotenv= require('dotenv');
 dotenv.config()
-const PORT = process.env.PORT || 4200;
+const PORT = process.env.PORT || 27017;
 const NODE_ENV = process.env.NODE_ENV;
 const SECRET_KEY = process.env.SECRET_KEY;
 
