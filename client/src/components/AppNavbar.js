@@ -21,7 +21,9 @@ import{
      }
 
      render(){
-         <div>
+
+        return(
+              <div>
              <Navbar color="dark" dark expand ="sm" className="mb-5">
                  <Container>
                      <NavbarBrand href = "/">ShoppingList</NavbarBrand>
@@ -36,6 +38,8 @@ import{
                  </Container>
              </Navbar>
          </div>
+        )
+         
      }
  }
      
