@@ -7,6 +7,7 @@ const {mongoURI}= require ('./config/keys');
 const items =require('./routes/api/items');
 
 //initialize app
+
 const app =express();
 
 //body parser middleware
@@ -22,7 +23,7 @@ mongoose
  //use Routes
  app.use('/api/items',items);
 
- const port= process.env.PORT || 5000;
+ const port= process.env.PORT || 27017 ; 
 
  app.listen(port, () => console.log(`Server started on port ${port}`));
  
