@@ -8,4 +8,22 @@ import{
     NavItem,
     NavLink,
     Container
- }from 'reactstrap'
+ }from 'reactstrap';
+
+ class AppNavbar extends Component{
+     state = {
+         isOpen :false
+     }
+     toggle= ()=>{
+         this.setState({
+             isOpen:!this.state.isOpen
+         }) 
+     }
+
+ }
+     
+         
+       
+
+ 
+export default AppNavbar;
