@@ -9,10 +9,12 @@ import './App.css';
  
 function App() {
   return (
+    <Provider store={store}>
     <div className="App">
      <AppNavbar />
      <ShoppingList/>
     </div>
+    </Provider>
   );
 }
  
