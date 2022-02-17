@@ -27,7 +27,7 @@ import{
              <Navbar color="dark" dark expand ="sm" className="mb-5">
                  <Container>
                      <NavbarBrand href = "/">ShoppingList</NavbarBrand>
-                     <NavbarToggler onclick= {this.togggle}/>
+                     <NavbarToggler onClick= {this.togggle}/>
                      <Collapse isOpen ={this.state.isOpen}navbar>
                      <Nav className='ml-auto' navbar>
                          <NavItem>
