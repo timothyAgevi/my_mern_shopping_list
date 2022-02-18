@@ -1,9 +1,10 @@
-import res from 'express/lib/response';
-import {GET_ITEMS,ADD_ITEMS,DELETE_ITEM}from '../actions/types';
+
+  
+import {GET_ITEMS,ADD_ITEMS,DELETE_ITEM}from './types';
 
 export const getItems = () =>{
     return {
-        type:GET_ITEMS,
+        type:GET_ITEMS
         
-    }
-}
+    };
+}; 

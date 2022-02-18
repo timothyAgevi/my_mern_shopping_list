@@ -24,7 +24,7 @@ class ShoppingList extends Component{
                         const name = prompt('Enter Item');
                         if(name){
                             this.setState(state  =>({
-                                items:[ ...state.items,{id : uuid(),name : name}]
+                                items:[ ...state.items,{id : uuid(),name}]
                             }))
                         }
                     }
